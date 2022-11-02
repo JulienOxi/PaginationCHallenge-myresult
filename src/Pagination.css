@@ -1,0 +1,25 @@
+.pagination{
+    display:flex;
+    justify-content:center;
+}
+
+.pagination > li{
+    list-style:none;
+}
+
+button{
+    border: 1px solid #CCCCCC;
+    color:#000000;
+    padding:10px;
+}
+
+button:hover{
+    background-color: #CCCCCC;
+}
+
+button{
+    background-color: #fff;
+}
+button.active{
+    background-color: #CCCCCC;
+}
